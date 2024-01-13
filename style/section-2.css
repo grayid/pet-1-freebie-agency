@@ -1,0 +1,110 @@
+#section-2 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+ }
+
+.about-wrapper {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-widget {
+    position: relative;
+    width: 1100px;
+    height: 560px;
+}
+
+#we-are-sqwd {
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 590px;
+    height: 410px;
+    background-image: url("../assets/images/man-face-large.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 73%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.we-are-header {
+    color: #333;
+    font-family: Oswald, sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 2.3px;
+    line-height: 60px;
+    text-transform: uppercase;
+}
+
+.sqwd-header {
+    color: #504E4E;
+    font-family: OpenSans, sans-serif;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 2.6px;
+    margin-bottom: 32px;
+    text-transform: uppercase;
+}
+
+.we-are-description {
+    display: flex;
+    gap: 10px;
+    margin-left: 21px;
+}
+
+.we-are-description > span {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: #353535;
+    margin-top: 12px;
+}
+
+.we-are-description > p {
+    width: 281px;
+    color: #5B5858;
+    font-family: OpenSans, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 25px;
+    letter-spacing: 1.2px;
+}
+
+#we-are-green-box {
+    z-index: 1;
+    position: absolute;
+    top: 62px;
+    left: 403px;
+    width: 309px;
+    height: 418px;
+    opacity: 0.8;
+    background: #4CAF50;
+}
+
+#we-are-full-frame {
+    z-index: 0;
+    position: absolute;
+    top: 168px;
+    left: 613px;
+    width: 560px;
+    height: 391px;
+    background-image: url("../assets/images/man-full-frame.png");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+  
+#we-are-full-frame > .we-are-description {
+    margin-top: 170px;
+}

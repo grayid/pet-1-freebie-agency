@@ -1,0 +1,113 @@
+#section-3 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+ }
+
+ .our-services-wrapper {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background: #FBFBFB;
+ }
+
+.our-services-title-block > span {
+    display: block;
+    width: 45px;
+    height: 2px;
+    background: #252525;
+    margin-top: 7px;
+}
+
+.our-services-title {
+    color: #252525;
+    font-family: Oswald, sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.our-services-list-block {
+    display: flex;
+    gap: 28px;
+    margin-top: 85px;
+}
+
+.services-list-item-wrapper {
+    margin: 50px 48px 35px 44px;
+}
+
+.our-services-list-item {
+    width: 373px;
+    height: 260px;
+    background: #FFF;
+}
+
+.services-card-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.services-card-title h2 {
+    color: #252525;
+    font-family: Oswald, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.services-card-title span {
+    display: block;
+    width: 35px;
+    height: 2px;
+    background: #252525;
+}
+
+.services-card-icon {
+    width: 50px;
+    height: 50px;
+    fill: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px #DBDBDB;
+    filter: opacity(0.5);
+}
+
+.services-card-description > p {
+    color: #777;
+    font-family: OpenSans, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 1px;
+    margin-top: 19px;
+    margin-bottom: 19px;
+}
+
+.services-card-more > a {
+    color: #252525;
+    font-family: Oswald, sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0.64px;
+    text-transform: uppercase;
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+.active-service-card {
+    border-bottom: 3px solid #70BF73;
+}
+
+.active-service-card .services-card-icon {
+    filter: none;
+}
