@@ -1,129 +1,128 @@
-#section-1 {
-    width: 100%;
-    height: 100vh;
-    display: flex;
+.section-1 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
 }
 
-#header {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 85px;
-    display: flex;
-    justify-content: flex-end;
-    }
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 85px;
+  display: flex;
+  justify-content: flex-end;
+}
 
 .menu {
-    display: flex;
-    flex: 0.5;
-    justify-content: flex-start;
-    align-items: flex-end;
-    gap: 58px;
-    margin-left: 75px;
-    text-transform: uppercase;
+  display: flex;
+  flex: 0.5;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 58px;
+  margin-left: 75px;
+  text-transform: uppercase;
 }
 
 .menu-link {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .menu-link > a {
-    color: white;
-    text-decoration: none;
-    font-size: 14px;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
 }
 
 .menu-link-bottom-line {
-    display: block;
-    width: 18px;
-    height: 2px;
-    background: #4CAF50;
+  display: block;
+  width: 18px;
+  height: 2px;
+  background: #4CAF50;
 }
 
 .active-link .menu-link-bottom-line {
-    width: 100%;
+  width: 100%;
 }
 
 .homepage-background {
-    background: linear-gradient(to right, rgba(0,0,0,0.8) 20%, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.8) 80%), url(../assets/images/homepage-img.png);
-    display: flex;
-    flex: 1;
-    background-repeat: no-repeat;
-    background-size: 130%;
-    background-position: 42% 80%;
+  background: linear-gradient(to right, rgba(0,0,0,0.8) 20%, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.8) 80%), url(../assets/images/homepage-img.png);
+  display: flex;
+  flex: 1;
+  background-repeat: no-repeat;
+  background-size: 130%;
+  background-position: 42% 80%;
 }
 
 .homepage-phrase {
-    display:flex;
-    flex: 1;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: #fff;
-    gap: 24.5px;
-    cursor: default;
+  display:flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  gap: 24.5px;
+  cursor: default;
 }
 
 .homepage-phrase h1 {
-    font-family: Oswald, sans-serif;
-    font-size: 72px;
-    font-weight: 500;
-    letter-spacing: 4.5px;
-    margin: 0;
-    text-transform: uppercase;
+  font-family: Oswald, sans-serif;
+  font-size: 72px;
+  font-weight: 500;
+  letter-spacing: 4.5px;
+  margin: 0;
+  text-transform: uppercase;
 }
 
 .homepage-phrase p {
-    font-family: OpenSans, sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    letter-spacing: 1.2px;
-    margin: 0;
+  font-family: OpenSans, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1.2px;
+  margin: 0;
 }
 
-#pagination-wrapper {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.pagination-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .pagination {
-    position: absolute;
-    display:flex;
-    gap: 9px;
-    align-items: flex-end;
-    
+  position: absolute;
+  display:flex;
+  gap: 9px;
+  align-items: flex-end;
 }
 
 .pagination-item > p {
-    bottom: 15px;
-    color: rgba(255, 255, 255, 0.44);
-    font-family: Oswald, sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 32px;
-    cursor: pointer;
+  bottom: 15px;
+  color: rgba(255, 255, 255, 0.44);
+  font-family: Oswald, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32px;
+  cursor: pointer;
 }
 
 .active-pagination-item > p {
-    color:#fff;
-    font-size: 36px;
-    z-index: 0;
+  color:#fff;
+  font-size: 36px;
+  z-index: 0;
 }
 
 .pagination-item-line {
-    position: absolute;
-    bottom: 12px;
-    background: #4CAF50;
-    width: 39px;
-    height: 2px;
+  position: absolute;
+  bottom: 12px;
+  background: #4CAF50;
+  width: 39px;
+  height: 2px;
 }

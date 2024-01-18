@@ -1,4 +1,4 @@
-#section-4 {
+.section-4 {
   display: flex;
 }
 
@@ -93,12 +93,14 @@
   letter-spacing: 2px;
 }
 
-.even-card-layout, .odd-card-layout {
+.even-card-layout, 
+.odd-card-layout {
   display: flex;
   flex-direction: column;
 }
 
-.even-card-layout, .odd-card-layout > img {
+.even-card-layout, 
+.odd-card-layout > img {
   width: 455px;
   height: 444px;
 }

@@ -1,111 +1,113 @@
-#section-5 {
-    width: 100%;
-    height: 100vh;
-    display: flex;
+.section-5 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
  }
 
 .team-wrapper {
-    display: flex;
-    flex: 1;
-    justify-content: center;
-    align-items: center;
-    background: #FBFBFB;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  background: #FBFBFB;
 }
 
-.team-title-block > span, .team-person-info-content > span {
-    display: block;
-    width: 45px;
-    height: 2px;
-    background: #252525;
+.team-title-block > span, 
+.team-person-info-content > span {
+  display: block;
+  width: 45px;
+  height: 2px;
+  background: #252525;
 }
 
 .team-person-info-content > span {
-    margin: 8.9px auto 6px;
+  margin: 8.9px auto 6px;
 }
 
 .team-title {
-    color: #252525;
-    font-family: Oswald, sans-serif;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    letter-spacing: 3px;
-    margin-bottom: 7px;
+  color: #252525;
+  font-family: Oswald, sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 3px;
+  margin-bottom: 7px;
 }
 
 .team-list-block {
-    display: flex;
-    gap: 28px;
-    margin-top: 85px;
+  display: flex;
+  gap: 28px;
+  margin-top: 85px;
 }
 
 .team-list-card {
-    position: relative;
-    width: 370px;
-    height: 398px;
+  position: relative;
+  width: 370px;
+  height: 398px;
 }
 
 .team-person-info-background {
-    height: 100%;
-    opacity: 0.5;
-    background: #FFF;
+  height: 100%;
+  opacity: 0.5;
+  background: #FFF;
 }
 
 .active-card-info-background {
-    height: 155px;
-    opacity: 0.9;
-    bottom: 23.3%;
+  height: 155px;
+  opacity: 0.9;
+  bottom: 23.3%;
 }
 
 .team-person-info {
-    display: flex;
-    height: 55px;
+  display: flex;
+  height: 55px;
 }
 
-.team-person-info, .team-person-info-background {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+.team-person-info, 
+.team-person-info-background {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .team-person-info-content {
-    z-index: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    text-align: center;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
 }
 
 .team-person-info-content > h2 {
-    color: #252525;
-    font-family: Oswald, sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 300;
-    letter-spacing: 1px;
+  color: #252525;
+  font-family: Oswald, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 1px;
 }
 
 .motto {
-    color: #777;
-    text-align: center;
-    font-family: OpenSans, sans-serif;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 25px; 
-    letter-spacing: 1px;
-    margin: 12px 0 30px;
+  color: #777;
+  text-align: center;
+  font-family: OpenSans, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; 
+  letter-spacing: 1px;
+  margin: 12px 0 30px;
 }
 
 .team-list-card:nth-child(2n) .team-person-info-background {
-    opacity: 0.9;
+  opacity: 0.9;
 }
 
 .team-list-card:nth-child(2n) .team-person-info {
-    height: 155px;
+  height: 155px;
 }
 
 .team-list-card:nth-child(2n) .team-person-info-content {
-    justify-content: flex-end;
+  justify-content: flex-end;
 }
